@@ -1,1 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(183, 187, 250);
+}
+
+#wrapper {
+  background-color: rgb(65, 29, 183);
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-top: 80px;
+}
+
+#domainNam {
+  background-color: rgb(106, 108, 245);
+  border: solid;
+  border-style: dashed;
+  border-color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: whitesmoke;
+}
+
+button {
+  background-color: rgb(146, 38, 204);
+  color: whitesmoke;
+  size: 500px;
+  border-color: antiquewhite;
+  padding: 10px;
+  font-weight: bold;
+}

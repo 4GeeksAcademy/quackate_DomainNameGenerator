@@ -8,6 +8,9 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
+  document.querySelector("#click").addEventListener("click", () => {
+    document.querySelector("#domainNam").innerHTML = domainNameGenerator();
+  });
 
   //My code begins right here!
   const domainNameGenerator = () => {
@@ -29,8 +32,8 @@ window.onload = function() {
         }
       }
     }
-
-    return result;
+    let resultIndex = Math.floor(Math.random() * result.length);
+    return result[resultIndex];
   };
 
   console.log(domainNameGenerator());
