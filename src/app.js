@@ -34,7 +34,19 @@ window.onload = function() {
     }
     let resultIndex = Math.floor(Math.random() * result.length);
     return result[resultIndex];
-  };
 
+    /* let resultValues = result.values();
+    let inputWord = document.getElementById("nameInput").value;
+    let inputToString = inputWord.toString();
+
+    for (let value of resultValues) {
+      if (value.includes(inputToString)) {
+        return value;
+      } else {
+        return "Value not found";
+      }
+    }
+    */
+  };
   console.log(domainNameGenerator());
 };

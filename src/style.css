@@ -23,6 +23,11 @@ body {
   color: whitesmoke;
 }
 
+/*input {
+  margin-bottom: 30px;
+}
+*/
+
 button {
   background-color: rgb(146, 38, 204);
   color: whitesmoke;
